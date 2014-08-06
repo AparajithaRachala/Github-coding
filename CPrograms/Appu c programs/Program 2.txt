@@ -1,0 +1,71 @@
+#include <stdio.h>
+
+
+int main(void)
+ {
+	// your code goes here
+	
+  int index;
+	
+  int number;
+	
+  int even[10];
+	
+  int odd[10];
+	
+  
+
+  for(index = 0;index <10 ; index++)
+ 
+  {  
+  	
+      printf("Enter number%d : \n",index);
+  
+      scanf("%d",&number);
+  	
+  	
+
+      if(number%2 == 0)
+  	
+      {
+  		
+         even[index] = number;
+  	
+      }
+  	
+      else
+  
+      {
+  		
+         odd[index] = number;
+  	
+      }
+ 
+  }	
+  	
+  	
+      printf("Even numbers are : \n");
+  	
+      for(index = 0;index < 10; index++)
+  	
+      {
+  		
+        printf(" %d ",even[index]);
+  	
+      }
+  	
+  	
+
+      printf("\nOdd numbers are : \n");
+  	
+      for(index =0;index < 10;index++)
+  	
+      {
+  		
+         printf(" %d ",odd[index]);
+  	
+      }
+  	
+      return 0;
+
+}

@@ -1,8 +1,10 @@
+Now i will  edit  this and pull this see.
 #include <stdio.h>
 
 
 int main(void)
  {
+ 
 	// your code goes here
 	
   int index;
